@@ -1,0 +1,82 @@
+/* Container holding the image and the text */
+.header {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.img-fluid {
+    width: 100%;
+    height: 800px;
+}
+
+.top-left {
+    position: absolute;
+    top: 50px;
+    left: 16px;
+
+
+}
+
+.top-left h1 {
+    font-size: 50px;
+}
+
+.top-right {
+    position: absolute;
+    top: 50px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered h2 {
+
+    font-family: 'Courier New', Courier, monospace
+}
+
+.top-right>ul {
+    list-style: none;
+    display: inline;
+}
+
+.top-right>ul>li {
+    display: inline;
+    padding-right: 40px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.centered-paragragh {
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.down-drop {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.product-category{
+    background-color: #c6bfa5;
+    height: 150px;
+}
+.checkboxes{
+    margin-left: 40px;
+    padding-top: 70px;
+    padding-bottom: 75px;
+    
+}
+input{
+    padding: 12px
+}
